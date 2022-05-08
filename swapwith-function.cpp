@@ -1,12 +1,13 @@
 #include <iostream>
 
 using namespace std;
-
+//using function for swaping
 void swap(int *a, int *b){
 	int x = *a;
 	*a = *b;
 	*b = x;
 }
+//Main method started here, compiler always checks Main method first
 int main(){
       int no1 =5 ;
       int  no2 = 6;
