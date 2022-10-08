@@ -60,6 +60,10 @@ int main()
                 << " at " << checkingInterest*100 << "%" << endl;
             }
     }
+    else
+    {
+        cout<<"There is no such account exist: "<<endl;
+    }
              
           
 }
